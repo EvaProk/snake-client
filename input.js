@@ -13,6 +13,10 @@ const handleUserInput = function (data) {
   }else if(data === 'd'){
     connection.write('Move: right');
   }
+  if (data === 'r') {
+    connection.write('Say: Smile');;
+  }
+  
 
 };
 
